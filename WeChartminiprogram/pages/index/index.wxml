@@ -1,0 +1,6 @@
+<!--pages/index.wxml-->
+<view class="containor1">
+<image src="{{src}}" mode="widthFix"></image>
+<text>{{AKA}}</text>
+<button bindtap="getUserproflie">点击登录</button>
+</view>
