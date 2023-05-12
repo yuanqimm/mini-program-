@@ -1,0 +1,16 @@
+/*新闻列表样式*/
+.list-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid gray;
+}
+.list-item image{
+  width: 300rpx;
+  height: 150rpx;
+  margin: 10rpx;
+}
+.news-title{
+  width: 100%;
+  font-size: 12pt;
+  line-height: 60rpx;
+}

@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/my/my",
+   "pages/index/index",
+   "pages/video/video",
+   "pages/detail/detail"
+  
+   
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff8800",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "嘉庚新闻网"
+  },
+ "tabBar": {
+   "list": [
+     {
+       "pagePath": "pages/index/index",
+       "text": "首页",
+       "iconPath": "images/index.png",
+       "selectedIconPath": "images/index_blue.png"
+     },
+     {
+      "pagePath": "pages/video/video",
+      "text": "视频",
+      "iconPath": "images/1.png",
+      "selectedIconPath": "images/2.jpg"
+    },
+     {
+      "pagePath": "pages/my/my",
+      "text": "个人中心",
+      "iconPath": "images/my.png",
+      "selectedIconPath": "images/my_blue.png"
+    }
+   ]
+ }
+}

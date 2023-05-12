@@ -1,0 +1,22 @@
+/* pages/detail/detail.wxss */
+.container{
+  padding: 20rpx;
+  text-align: center;
+}
+.title{
+  font-size: 14pt;
+  line-height: 80rpx;
+}
+.poster image{
+  width: 100%;
+}
+.content{
+  text-align: justify;
+  font-size: 12pt;
+  line-height: 60rpx;
+}
+.add_date{
+  text-align: right;
+  font-size: 10pt;
+  line-height: 60rpx;
+}
