@@ -1,0 +1,56 @@
+/* pages/index/index.wxss */
+page{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.result{   
+    flex: 1;
+    background:whitesmoke ;
+    position: relative;
+}
+.result-num{
+    position: absolute;
+    bottom: 10vh;
+    right: 3vw;
+    font-size: 20pt;
+}
+
+.result-op{
+    position: absolute;
+    bottom: 5vh;
+    right: 9vw;
+    font-size: 23pt;
+}
+
+.buts{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.buts>view{
+    flex: 1;
+    display: flex;
+}
+.buts>view>view{
+    flex-basis: 25%;
+    border-bottom: 1rpx solid #cccccc;
+    border-right:1rpx solid #cccccc ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17pt;
+}
+.buts>view:last-child>view:last-child{
+    flex-basis: 50%;
+}
+.buts>view:first-child>view:first-child{
+    color: red;
+}
+.buts>view>view:last-child{
+    font-size: 20pt;
+    font-weight: 800;
+}
+.bg{
+    background: grey;
+}

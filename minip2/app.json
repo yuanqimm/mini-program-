@@ -1,0 +1,11 @@
+{
+    "pages":[
+        "pages/index/index",
+        "pages/log/log"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#fff666",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "计算器"
+    }
+}
